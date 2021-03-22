@@ -20,12 +20,14 @@ function restartGame() {
 
 function startGameFor1Player() {
     gameType = 1;
+    player = 1;
     restartGame();
     addTextToAddition('<h2>Gra z komputerem</h2>');
 }
 
 function startGameFor2Player() {
     gameType = 2;
+    player = 1;
     restartGame();
     addTextToAddition('<h2>Gra z człowiekiem</h2>');
 }
