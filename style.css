@@ -26,10 +26,7 @@ body
 	text-align: center;
 	color: white;
 	font-size: 23px;
-	border-top-right-radius: 10px;
-	border-bottom-right-radius: 10px;
-	border-top-left-radius: 10px;
-	border-bottom-left-radius: 10px;
+	border-radius: 10px;
 }
 #content
 {
@@ -40,6 +37,29 @@ body
 	background-color: #DDDDDD; 
 	margin-top: 25px;
 	border-top-left-radius: 15px;
+}
+#game
+{
+	float: left;
+	padding: 20px;
+	width: 1020px;
+	min-height: 620px;
+	background-color: #CCCCCC;
+	border-radius: 10px;
+}
+.kontener
+{
+	float: left;
+	width: 150px;
+	min-height: 150px;
+	background-color: gray;
+	margin: 28px;
+}
+#menu_gry
+{
+	float: left;
+	min-height: 620px;
+	width: 280px;
 }
 #addition
 {
@@ -124,3 +144,28 @@ ol > li > ul > li:hover > a
 {
 	color: #C0C0C0;
 }
+.myButton {
+	box-shadow: 0px 0px 0px 2px #9fb4f2;
+	background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+	background-color:#7892c2;
+	border-radius:26px;
+	border:3px solid #4e6096;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:20px;
+	padding:15px 60px;
+	text-decoration:none;
+	text-shadow:0px 1px 50px #283966;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+	background-color:#476e9e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
