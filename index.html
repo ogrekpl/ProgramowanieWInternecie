@@ -7,9 +7,11 @@
 	<meta name="keywords" content="strona, projekt, zaliczenie przedmiotu, warszawa"/>
 	<meta name="author" content="Sebastian Marciniak"/>
 	<link href="style.css" rel="stylesheet" />
+	<script src="spl.js"></script>
+	<script src="scripts.js"></script>
 </head>
 
-<body>
+<body onload="loadInnerHTML('mainContent.txt', 'content'); loadInnerHTML('mainAddition.txt', 'addition')">
 	<div id="container">
 	
 		<div id="logo">
@@ -24,7 +26,7 @@
 						<li><a href="#">1.2</a></li>
 					</ul>
 				</li>
-				<li><a href="gra.html">Gra</a></li>
+				<li><a onclick="loadInnerHTML('gameContent.txt', 'content')">Gra</a></li>
 				<li><a href="#">3</a>
 					<ul>	
 						<li><a href="#">3.1</a></li>
@@ -35,7 +37,7 @@
 				<li><a href="#">5</a></li>
 				<li><a href="#">Inne</a>
 					<ul>
-						<li><a href="index.html">O stronie</a></li>
+						<li><a onclick="loadInnerHTML('mainContent.txt', 'content'); loadInnerHTML('mainAddition.txt', 'addition')">O stronie</a></li>
 						<li><a href="#">6.2</a></li>
 						<li><a href="#">6.3</a></li>
 					</ul>
@@ -43,15 +45,9 @@
 			</ol>
 		</div>
 		
-		<div id="content">
-		<h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum dictum lobortis. Duis nec dui eget purus auctor interdum. Integer pretium, massa nec pulvinar scelerisque, dolor dolor commodo mauris, sit amet viverra justo ligula sed ipsum. Duis vel dolor est. Aliquam at metus ex. Phasellus ex enim, rhoncus vel nibh vitae, aliquet consectetur mauris. Proin vitae enim consequat, auctor metus eget, suscipit justo.
-
-			Suspendisse sodales pharetra libero a interdum. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Curabitur imperdiet turpis est, id faucibus libero dignissim non. Ut libero tortor, vulputate nec euismod porta, ullamcorper a ante. Nam auctor tempus blandit. Quisque quis odio massa. Fusce fringilla gravida ultricies. Donec posuere, nunc in gravida pharetra, mi velit commodo libero, eget imperdiet dui tellus eget turpis. Vestibulum elit velit, euismod a neque eget, lobortis elementum est. Maecenas nisl metus, pellentesque in molestie sit amet, sollicitudin non mi. Sed consequat luctus dolor, sed suscipit nisl ornare et.</h2>
-		</div>
+		<div id="content"></div>
 		
-		<div id="addition">
-		<h2>Tu też coś może być </h2>
-		</div>
+		<div id="addition"></div>
 		
 		<div id="footer">
 		Sebastian Marciniak Warszawa 2021
