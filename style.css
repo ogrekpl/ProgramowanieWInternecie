@@ -169,3 +169,103 @@ ol > li > ul > li:hover > a
 	top:1px;
 }
 
+@media
+only screen and (max-width: 1600px)
+{
+	#content
+	{
+		width: 1060px;
+		min-height: 528px;
+	}
+
+	#addition
+	{
+		width: 160px;
+		min-height: 548px;
+	}
+}
+
+@media
+only screen and (max-width: 1300px)
+{
+	#content
+	{
+		width: 1050px;
+		min-height: 410px;
+	}
+
+	#addition
+	{
+		width: 110px;
+		min-height: 430px;
+	}
+
+	#footer
+	{
+		width: 1208px;
+	}
+
+	#menu
+	{
+		height: 31px;
+		width: 1208px;
+	}
+	ol
+	{
+		font-size: 16px;
+		height: 30px;
+	}
+	ol > li
+	{
+		width: 200px;
+	}
+}
+
+@media
+only screen and (max-width: 1200px)
+{
+	#logo
+	{
+		text-align: center;
+		padding: 1px;
+		font-weight: 600;
+		font-size: 25px;
+	}
+	#content
+	{
+		width: 880px;
+		min-height: 380px;
+	}
+
+	#addition
+	{
+		width: 80px;
+		min-height: 400px;
+	}
+
+	#footer
+	{
+		width: 1008px;
+		height: 6px;
+		font-size: 8px;
+	}
+
+	#menu
+	{
+		height: 28px;
+		width: 1016px;
+		padding: 1px;
+	}
+	ol
+	{
+		font-size: 14px;
+		height: 20px;
+	}
+	ol > li
+	{
+		width: 162px;
+	}
+}
+
+
+
