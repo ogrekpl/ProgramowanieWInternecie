@@ -175,13 +175,42 @@ only screen and (max-width: 1600px)
 	#content
 	{
 		width: 1060px;
-		min-height: 528px;
+		min-height: 596px;
 	}
 
 	#addition
 	{
-		width: 160px;
-		min-height: 548px;
+		width: 159px;
+		min-height: 616px;
+	}
+	h2
+	{
+		font-size: 18px;
+	}
+	#game
+	{
+		padding: 28px;
+		width: 800px;
+		min-height: 340px;
+	}
+	.kontener
+	{
+		width: 120px;
+		min-height: 120px;
+		margin: 30px;
+	}
+	#menu_gry
+	{
+		min-height: 370px;
+		width: 200px;
+		margin-right: 50px;
+	}
+	#logo
+	{
+		text-align: center;
+		padding: 4px;
+		font-weight: 800;
+		font-size: 30px;
 	}
 }
 
@@ -191,13 +220,13 @@ only screen and (max-width: 1300px)
 	#content
 	{
 		width: 1050px;
-		min-height: 410px;
+		min-height: 456px;
 	}
 
 	#addition
 	{
-		width: 110px;
-		min-height: 430px;
+		width: 109px;
+		min-height: 476px;
 	}
 
 	#footer
@@ -219,6 +248,27 @@ only screen and (max-width: 1300px)
 	{
 		width: 200px;
 	}
+	h2
+	{
+		font-size: 14px;
+	}
+	#game
+	{
+		padding: 28px;
+		width: 900px;
+		min-height: 340px;
+	}
+	.kontener
+	{
+		width: 80px;
+		min-height: 80px;
+		margin: 20px;
+	}
+	#menu_gry
+	{
+		min-height: 400px;
+		width: 400px;
+	}
 }
 
 @media
@@ -234,13 +284,13 @@ only screen and (max-width: 1200px)
 	#content
 	{
 		width: 880px;
-		min-height: 380px;
+		min-height: 396px;
 	}
 
 	#addition
 	{
 		width: 80px;
-		min-height: 400px;
+		min-height: 416px;
 	}
 
 	#footer
@@ -264,6 +314,27 @@ only screen and (max-width: 1200px)
 	ol > li
 	{
 		width: 162px;
+	}
+	h2
+	{
+		font-size: 20px;
+	}
+	#game
+	{
+		padding: 28px;
+		width: 720px;
+		height: 250px;
+	}
+	.kontener
+	{
+		width: 70px;
+		min-height: 70px;
+		margin: 19px;
+	}
+	#menu_gry
+	{
+		min-height: 400px;
+		width: 270px;
 	}
 }
 
